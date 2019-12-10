@@ -15,6 +15,6 @@ data:
 kind: ConfigMap
 metadata:
   labels:
-    app: saf-sample-allinone-service-prod
-  name: saf-sample-allinone-service-prod
+    app: saf-boot-starter-sample-allinone-service-prod
+  name: saf-boot-starter-sample-allinone-service-prod
   namespace: inc

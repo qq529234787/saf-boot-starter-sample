@@ -2,8 +2,8 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   labels:
-    app: saf-sample-allinone-web-prod
-  name: saf-sample-allinone-web-prod
+    app: saf-boot-starter-sample-allinone-web-prod
+  name: saf-boot-starter-sample-allinone-web-prod
   namespace: inc
 spec:
   rules:
@@ -11,6 +11,6 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: saf-sample-allinone-web-prod
+          serviceName: saf-boot-starter-sample-allinone-web-prod
           servicePort: 80
         path: /
